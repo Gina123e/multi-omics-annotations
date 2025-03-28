@@ -1,0 +1,19 @@
+# Multi-omics annotations
+We usually adopt different types of data from different sources/labs/technologies, such as ATAC-seq, m6A-seq, eCLIP-seq, icSHAPE-seq etc. Inegrating multi-omics data is paramount for people who conduct# research in bioinformatics. And the dataset we fetch is the *bed file format. It contains the absolute coordinates of each modification sites. But before training the deep learning model, we usually need to align thess datasets onto whole transcriptome, and get the relative coordinates onto the transcript. Here, I shared a pipeline to teach beginners in bioinformatics and compbio how to integrate different types of omics.
+
+## Illustration
+Fig1. 
+
+## modles
+- eCLIP-seq + m6A integration.
+```
+
+```
+- ATAC-seq + eCLIP overlap
+
+## Example
+See jupyter notebook
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
