@@ -3,6 +3,7 @@ We usually adopt different types of data from different sources/labs/technologie
 
 ## Illustration
 Fig1. 
+![Annoate m6A sites on genome](../images/m6A genome.drawio.png)
 ## preparation
 Firstly, you should download human annotation file-gencode.v38.annotation.gtf from ensembl and hg38.fa from NCBI. 
 Then, you should use **star** to fetch transcript sequence. Notice! The RNA sequence of gene on minus strand must be reversed.
