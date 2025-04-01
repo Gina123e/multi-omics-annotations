@@ -21,6 +21,13 @@ make
 ```
 then, you should add the bedtools2-2.31.1/bin into your ~/.bashrc and source it. 
 
+## get start stop codon
+RNA modifications near stop-codon is very important to study gene regulation
+```
+cd src/
+python annoate_stop_codon.py
+```
+
 ## modles
 - eCLIP-seq + m6A integration.
 ```
