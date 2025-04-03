@@ -28,6 +28,11 @@ cd src/
 python annoate_stop_codon.py
 ```
 ## annoate m6A onto all transcripts
+NOTICE!!!
+(1) First, the format m6A annotation file is 1-base coordinate system, and gtf file is also 1-base coordinate system. So when you creating intersect.bed file, you must create the 1-base coordinate system
+(2) Some m6A sites that had been detected in the experiments do not conform to the classic motif-- DRACH, D = GAU, R=AG,H=ACT. So I classify those m6A sites as nonclassic m6A sites and saved them into nonclassic.txt.
+(3) when you intersect m6A.csv and gencode.v38.annotation.gtf, you must consider the strand status(+/-).
+
 ```
 cd src/
 nohup python align_m6A.py &
