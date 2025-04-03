@@ -27,6 +27,11 @@ RNA modifications near stop-codon is very important to study gene regulation
 cd src/
 python annoate_stop_codon.py
 ```
+## annoate m6A onto all transcripts
+```
+cd src/
+nohup python align_m6A.py &
+```
 
 ## modles
 - eCLIP-seq + m6A integration.
