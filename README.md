@@ -38,6 +38,9 @@ cd src/
 nohup python align_m6A.py &
 ```
 
+## annotate RBP binding sites
+
+
 ## modles
 - eCLIP-seq + m6A integration.
 ```
